@@ -5,8 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Plant Collective</title>
+    <link rel="stylesheets" href="stylesheets/style.css" />
 </head>
 <body>
+    <div style="text-align:center" id="plant-header">
+        <img src="https://fontmeme.com/permalink/220706/eb663fa4310ec04d6237356dec65e926.png" alt="plant-header"
+        />
+    </div>
+    <p style="text-align: center">
+        Welcome to The Plant Collective!
+        </p>
+    <div class="container">
+        <form class = "add-plant"> 
+            <h2>Add Plants Here!</h2>
+            <input type="text" name="Name" value="" placeholder="Enter plant name here..." class="input-text"/>
+            <br>
+            <input type="text" name="image" value="" placeholder="Submit plant image url..." class="input-text"/>
+            <br>
+            <input type="checkbox" name="Partial Sun" id="Sunlight">
+            <label for="sun1">Partial Sun</label>
+            <br>
+            <input type="checkbox" name="Full Sun" id="Sunlight">
+            <label for="sun2">Full Sun</label>
+            <br>
+            <input type="checkbox" name="Shade" id="Sunlight">
+            <label for="sun3">Shade</label>
+            <br>
+            <input type="text" name="plant-details" value="" placeholder="Enter plant details here!" class="input-text"/>
+            <br>
+            <input type="submit" name="submit" value="Add Plant!" class="submit"/>
+        </form>
+    </div>
     
+    <div id="plant-collection"></div>
+    <script type= "text/javascript" src= "src/index.js"></script>
 </body>
 </html>
