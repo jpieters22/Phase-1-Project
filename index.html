@@ -5,19 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Plant Collective</title>
-    <link rel="stylesheets" href="stylesheets/style.css" />
+    <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 <body>
-    <div style="text-align:center" id="plant-header">
+    <div id="plant-header">
         <img src="https://fontmeme.com/permalink/220706/eb663fa4310ec04d6237356dec65e926.png" alt="plant-header"
         />
     </div>
-    <p style="text-align: center">
-        Welcome to The Plant Collective!
-        </p>
+    <h1>Add your plants to the collection!</h1>
     <div class="container">
         <form class = "add-plant"> 
-            <h2>Add Plants Here!</h2>
+            <fieldset>
+                <legend>Add Plants Here!</legend>
             <input type="text" name="Name" value="" placeholder="Enter plant name here..." class="input-text"/>
             <br>
             <input type="text" name="image" value="" placeholder="Submit plant image url..." class="input-text"/>
@@ -33,11 +32,13 @@
             <br>
             <input type="text" name="plant-details" value="" placeholder="Enter plant details here!" class="input-text"/>
             <br>
+            Plant Color:<input type="color">
+            </fieldset>
             <input type="submit" name="submit" value="Add Plant!" class="submit"/>
         </form>
     </div>
     
     <div id="plant-collection"></div>
-    <script type= "text/javascript" src= "src/index.js"></script>
+    <script type= "text/javascript" src= "javascript/index.js"></script>
 </body>
 </html>

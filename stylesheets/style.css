@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #88A18F;
+    background: lightgrey;
+}
+
+#plant-header {
+    text-align: center;
+    background: lightgrey;
+    opacity: .8;
+    height: 7rem;
+    padding: 1rem;
+}
+
+#plant-header img {
+    height: 5rem;
+    width: auto;
+}
