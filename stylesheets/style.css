@@ -17,3 +17,23 @@ h1{
     height: 5rem;
     width: auto;
 }
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+    color: black;
+}
+
+body .input-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    height: auto;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+#add-plant-button {
+    font-family: 'Courier New', Courier, monospace;
+    height: auto;
+    width: 150px;
+}
