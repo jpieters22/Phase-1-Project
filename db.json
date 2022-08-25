@@ -1,11 +1,49 @@
 {
-    "plants": [
-        {
-            "id": 1,
-            "name": "Succulent Plant",
-            "image": "https://th.bing.com/th/id/OIP.TITIr-osP_TAO9L0c1U0lwHaIW?pid=ImgDet&rs=1",
-            "paragraph": "In botany, succulent plants, also known as succulents, are plants with parts that are thickened, fleshy, and engorged, usually to retain water in arid climates or soil conditions. It is a characteristic that is not used scientifically for the definition of most families and genera of plants because it often can be used as an accurate characteristic only at the single species level.",
-            "likes": 7
-        }
-    ]
+  "plants": [
+    {
+      "id": 1,
+      "name": "Succulent Plant",
+      "Sunlight": "Full Sunlight",
+      "color": "Light green",
+      "image": "https://th.bing.com/th/id/OIP.TITIr-osP_TAO9L0c1U0lwHaIW?pid=ImgDet&rs=1",
+      "paragraph": "In botany, succulent plants, also known as succulents, are plants with parts that are thickened, fleshy, and engorged, usually to retain water in arid climates or soil conditions. It is a characteristic that is not used scientifically for the definition of most families and genera of plants because it often can be used as an accurate characteristic only at the single species level.",
+      "likes": 12
+    },
+    {
+      "name": "Rose",
+      "image": "https://th.bing.com/th/id/R.ec4b5a8d360db23a1cbc00a1bc2eba9d?rik=tWpypyhGqr1svQ&pid=ImgRaw&r=0",
+      "Sunlight": "Partial Sun",
+      "paragraph": "A rose is either a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over three hundred species and tens of thousands of cultivars. They form a group of plants that can be erect shrubs, climbing, or trailing, with stems that are often armed with sharp prickles. Their flowers vary in size and shape and are usually large and showy, in colours ranging from white through yellows and reds.",
+      "color": "Red",
+      "likes": 3,
+      "id": 2
+    },
+    {
+      "name": "Bamboo",
+      "image": "https://th.bing.com/th/id/R.a2c0939501d8042e8ae9d0ccbb5a7517?rik=lKeXEiOvVyBZBQ&riu=http%3a%2f%2fwww.bambooplantshq.com%2fwp-content%2fuploads%2f2015%2f02%2fbamboo-588339_1920.jpg&ehk=ahGnJEN10yty0zUws6Azk04lzRkdxbKsFzLM8f06g9s%3d&risl=&pid=ImgRaw&r=0",
+      "Sunlight": "Partial Sun",
+      "paragraph": "Bamboos are a diverse group of evergreen perennial flowering plants making up the subfamily Bambusoideae of the grass family Poaceae. Giant bamboos are the largest members of the grass family.",
+      "color": "Green",
+      "likes": 4,
+      "id": 3
+    },
+    {
+      "name": "Snake Plant",
+      "image": "https://th.bing.com/th/id/R.2a67e3bf0d142f6b7e4a9fe502617f83?rik=hANSBg3Rn9n75g&pid=ImgRaw&r=0",
+      "Sunlight": "Partial Sun",
+      "paragraph": "Dracaena trifasciata, commonly known as the snake plant, is one of the most popular and hardy species of houseplants. Up until 2017, it was botanically classified as Sansevieria trifasciata, but its commonalities with Dracaena species were too many to overlook.",
+      "color": "Greenish Yellow",
+      "likes": 2,
+      "id": 4
+    },
+    {
+      "name": "Avocado Tree",
+      "image": "https://homesteadandchill.com/wp-content/uploads/2020/05/how-to-grow-avocado-trees-mulch.jpeg",
+      "Sunlight": "Full Sunlight",
+      "paragraph": "If you live in the southern tip of the United States or further south, you have the unique opportunity to grow an avocado tree outdoors in your garden. These tall, evergreen fruit trees are best known for their creamy fruits with abundant health benefits. The tree’s thick, bright green foliage is also grown for its ornamental value. However, it is important to keep in mind that all parts of this tree, including the fruit, are toxic to a wide range of animals.",
+      "color": "Dark Green/Brown",
+      "likes": 6,
+      "id": 5
+    }
+  ]
 }

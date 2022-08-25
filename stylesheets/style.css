@@ -37,3 +37,32 @@ body .input-text {
     height: auto;
     width: 150px;
 }
+
+.card {
+    text-align: center;
+    border: #88A18f;
+    padding: 1rem;
+    width: 15rem;
+    height: 25rem;
+    display: inline-grid;
+    margin: 1rem 2rem 3rem;
+    box-shadow: lightgrey;
+}
+
+.plant-avatar {
+    justify-self: center;
+    height: 12rem;
+    width: auto;
+}
+
+#plant-collection {
+    margin: 6rem;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.add-plant-form {
+    width: 80%;
+}

@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-    alert('Hey is this working?')
+    alert('Welcome to the Plant Collective!')
 });
 
 let divCollect = document.querySelector('#plant-collection')
@@ -48,6 +48,11 @@ document.addEventListener("DOMContentLoaded", () => {
     form().addEventListener("submit", handleSubmit);
 })
 
+function deleteItem(e) {
+    console.log("Button element", e)
+    e.parentElement.remove()
+}
+
 function likes(e) {
     e.preventDefault()
     let more = parseInt(e.target.previousElementSibling.innerText) + 1
@@ -95,6 +100,15 @@ function renderPlants(plant) {
     btn.addEventListener('click', (e) => {
         console.log(e.target.dataset);
         likes(e)
+    })
+
+    let button = document.createElement('button')
+    button.setAttribute('class', 'delete-button')
+    button.setAttribute('id', plant.id)
+    button.innerText = "Delete"
+    button.addEventListener('click', (e) => {
+        console.log(e.target.dataset);
+        deleteItem(e)
     })
 
     let divCard = document.createElement('div')
