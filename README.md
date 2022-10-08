@@ -4,7 +4,7 @@ The Plant Collective will be my SPA that users can like, add images, and create 
 ### Starting up the website 
 I have plant data stored in the db.json file so you will need to access this by running `json-server --watch db.json` to start the server. 
 
-This will show a server that stores all of my plant data at `http://localhost:3000/plants/:id`. The `:id` is a variable that goes to a specific path. If youre looking for a specific id you would put the id number in place of `:id`. 
+This will show a server that stores all of my plant data at `http://localhost:3000/plants/:id`. The `:id` is a variable that goes to a specific path. If you're looking for a specific id you would put the id number in place of `:id`. 
 For example: `http://localhost:3000/plants/1`
 
 If you notice my project has various files like: index.js, index.html, and stylesheets. The index.html file has the basic layout of my form that I would like users to submit plant information on. My index.js file basically executes the efficiency of the form. 
