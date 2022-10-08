@@ -29,11 +29,11 @@ const handleSubmit = e => {
             Accept: "application/json"
         },
         body: JSON.stringify({
-            "name": e.target[0].value,
-            "image": e.target[1].value,
-            "Sunlight": e.target[2].value,
-            "paragraph" : e.target[3].value,
-            "color": e.target[4].value,
+            "name": e.target[1].value,
+            "image": e.target[2].value,
+            "Sunlight": e.target[3].value,
+            "paragraph" : e.target[4].value,
+            "color": e.target[5].value,
             "likes": 0
         })
     })
@@ -47,11 +47,6 @@ const handleSubmit = e => {
 document.addEventListener("DOMContentLoaded", () => {
     form().addEventListener("submit", handleSubmit);
 })
-
-function deleteItem(e) {
-    console.log("Button element", e)
-    e.parentElement.remove()
-}
 
 function likes(e) {
     e.preventDefault()
@@ -76,7 +71,7 @@ function likes(e) {
 function renderPlants(plant) {
     let h2 = document.createElement('h2')
     h2.innerText = plant.name
-
+    console.log(plant);
     let img = document.createElement('img')
     img.setAttribute('src', plant.image)
     img.setAttribute('class', 'plant-avatar')
@@ -87,7 +82,7 @@ function renderPlants(plant) {
     let p = document.createElement ('p')
     p.innerText = plant.paragraph
 
-    let h4 = document.createElement ('h4')
+    const h4 = document.createElement ('h4')
     h4.innerText = plant.color
 
     let element = document.createElement('p')
@@ -102,15 +97,6 @@ function renderPlants(plant) {
         likes(e)
     })
 
-    let button = document.createElement('button')
-    button.setAttribute('class', 'delete-button')
-    button.setAttribute('id', plant.id)
-    button.innerText = "Delete"
-    button.addEventListener('click', (e) => {
-        console.log(e.target.dataset);
-        deleteItem(e)
-    })
-
     let divCard = document.createElement('div')
     divCard.setAttribute('class', 'card')
     divCard.append(h2,img,h3,p, h4, element, btn)
@@ -122,4 +108,3 @@ getPlants().then(plants => { console.log(plants)
         renderPlants(plant)
     })
 })
-

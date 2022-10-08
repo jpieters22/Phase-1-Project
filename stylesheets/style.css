@@ -45,7 +45,8 @@ body .input-text {
     width: 15rem;
     height: 25rem;
     display: inline-grid;
-    margin: 1rem 2rem 3rem;
+    margin: 3rem;
+    margin-bottom: 25rem;
     box-shadow: lightgrey;
 }
 
@@ -65,4 +66,8 @@ button {
 
 .add-plant-form {
     width: 80%;
+}
+
+select {
+    font-family: 'Courier New', Courier, monospace;
 }

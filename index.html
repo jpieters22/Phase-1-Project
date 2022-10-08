@@ -21,18 +21,16 @@
             <br>
             <input type="text" name="image" value="" placeholder="Submit plant image url..." class="input-text"/>
             <br>
-            <input type="checkbox" name="Partial Sun" id="Sunlight">
-            <label for="sun1">Partial Sun</label>
-            <br>
-            <input type="checkbox" name="Full Sun" id="Sunlight">
-            <label for="sun2">Full Sun</label>
-            <br>
-            <input type="checkbox" name="Shade" id="Sunlight">
-            <label for="sun3">Shade</label>
+            <label for="Sunlight">Sunlight:</label>
+            <select name="Sunlight" id="Sunlight">
+                <option value="Partial Sunlight">Partial Sunlight</option>
+                <option value="Full Sunlight">Full Sunlight</option>
+                <option value="Shade">Shade</option>
+            </select>
             <br>
             <input type="text" name="plant-details" value="" placeholder="Enter plant details here!" class="input-text"/>
             <br>
-            Plant Color:<input type="color">
+            <input type="text" name="Plant color" value="" placeholder="Plant color?" class="input-text"/>
             </fieldset>
             <input type="submit" name="submit" value="Add Plant!" id="add-plant-button"/>
         </form>
