@@ -9,6 +9,8 @@ For example: `http://localhost:3000/plants/1`
 
 If you notice my project has various files like: index.js, index.html, and stylesheets. The index.html file has the basic layout of my form that I would like users to submit plant information on. My index.js file basically executes the efficiency of the form. 
 
+I added some fun plants already to the webpage, but you can add more by simply filling out the form and inputing the required plant information. I love how smooth the page runs and am very pleased with my project. There were some minor bumps such as the values not being added properly to the cards, but I fixed those by changing sunlight to select options through the HTML file and also chnaging the color option to text instead to give users free range to type specific colors of plants. 
+
 
 ### Requirements
 
